@@ -1,0 +1,41 @@
+* {
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    background-image: linear-gradient(to right, #333d50 0%, #323c50 100%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: auto;
+}
+
+.text-3d {
+    color: #323c50;
+    position: absolute;
+    font-size: 446px;
+    opacity: 0.95;
+}
+
+.umbra {
+    text-shadow: -10px 10px 10px rgba(0, 0, 0,0.35);
+}
+
+.penumbra {
+    text-shadow: -30px 30px 30px rgba(0, 0, 0,0.20);
+}
+
+.antumbra {
+    text-shadow: -45px 45px 70px rgba(0, 0, 0,0.20);
+}
+
+.light {
+    text-shadow: 4px -8px 15px rgba(255, 255, 255, 0.07);
+}
+
+.inner-light {
+    text-shadow: -3px 3px 4px rgba(255, 255, 255,0.05);
+}
